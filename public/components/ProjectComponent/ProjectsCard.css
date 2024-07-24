@@ -1,0 +1,62 @@
+.dar-bell {
+  background-color: rgb(247, 170, 184);
+  border-radius: 90%;
+  color: rgb(245, 245, 250);
+  width: 40px;
+  margin: 8px;
+}
+
+.icon-darbell {
+  width: 40px;
+}
+
+.link-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.each-card {
+  width: 350px;
+  padding: 20px;
+}
+
+.link-show {
+  display: flex;
+  width: fit-content;
+}
+.link-show p {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.each-card-p {
+  color: #666;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.each-card h1 {
+  font-size: 1.5rem;
+}
+
+.cardAll {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1300px;
+}
+
+.projects-layout {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-back {
+  padding: 0.25px;
+  background-color: white;
+  border-radius: 90%;
+  width: fit-content;
+  border: 0.5px solid #666;
+  margin: 5px;
+}

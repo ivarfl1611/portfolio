@@ -1,0 +1,36 @@
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 0.5rem;
+  background-color: #491eff;
+  color: #d4dbff;
+}
+
+.dark-mode {
+  background-color: #4f4c4c;
+  color: #fff;
+}
+
+.dark .btn {
+  background-color: #7582ff;
+  color: #050617;
+}
+
+.light-dark-button {
+  text-align: right;
+}
+.btn-light {
+  /* Styles for the light theme button */
+  background-color: white;
+  color: black;
+  /* Add more styling as needed */
+}
+
+.btn-dark {
+  /* Styles for the dark theme button */
+  background-color: black;
+  color: white;
+  /* Add more styling as needed */
+}

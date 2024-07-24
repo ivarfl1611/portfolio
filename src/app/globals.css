@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.profile-header-container {
+  flex-basis: calc(70% - 10px); /* Adjust the width of the profile header container */
+  margin-right: auto; /* Add margin between the ProfileHeader and the articles */
+  margin-left: auto;
+}
+
+.mainCard {
+  display: flex;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .mainCard {
+    display: inline;
+    margin: auto;
+  }
+}
+
+.rightSidebar {
+  padding: 12px;
+  margin-right: auto;
+}
+.footerContainer {
+  position: relative; /* Ensure relative positioning */
+  /* Add additional styling as needed */
+}
+
+.footerBar {
+  position: relative;
+  /* change to relative */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: none;
+  border-top: 1px solid gray;
+  padding: 20px;
+  display: flex;
+  justify-content: left;
+}
+/* Adjusting margin for skills widget */
+.rightSidebar .skills-widget {
+  margin-top: 20px;
+}
+
+/* Adjusting margin for work article */
+.rightSidebar .article-work {
+  margin-bottom: 20px;
+}
+
+.dark-mode .profile-header .home-head-title {
+  color: #fff;
+}
+
+.dark-mode .home-description {
+  color: #fff;
+}
+
+.dark-mode .card-content {
+  color: #fff;
+}
+
+.dark-mode .signup-head {
+  color: #fff;
+}
+.dark-mode .card-content {
+  color: #fff;
+}
+
+.dark-mode .signup-contentP {
+  color: #fff;
+}
+.dark-mode .work-h2 {
+  color: #fff;
+}
+
+.dark-mode .work-p {
+  color: #fff;
+}
+
+/* Smooth Transitions for Theme Changes */
+:root {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover Effects for Links */
+a:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
+/* Box Shadows for Cards */
+.mainCard, .rightSidebar, .footerContainer {
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s;
+}
+
+.mainCard:hover, .rightSidebar:hover, .footerContainer:hover {
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+/* Text Shadows for Headings in Dark Mode */
+.dark-mode h1, .dark-mode h2, .dark-mode h3 {
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+/* Global Font Smoothing */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
